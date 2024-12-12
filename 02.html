@@ -1,0 +1,23 @@
+<script>
+    //Problema: Encontrar o único número par do array
+    /*
+    Dada a lista de números inteiros, encontre o único número par presente no array.
+    let listaNumeros = [1, 3, 5, 7, 9, 2, 11]
+    */
+    //AQUI, USE FOR...OF!
+
+    //Entrada
+    let listaNumeros = [1, 3, 5, 7, 9, 2, 11];
+    let listaPar = [];
+
+    //Processamento
+    for (let item of listaNumeros) {
+       if (item % 2 == 0) {
+        listaPar.push(item);
+       } else {
+        alert(listaPar);
+       }
+    }
+    //Saída
+
+</script>
